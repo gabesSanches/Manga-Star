@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Manga Stars</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-book-open" id="nav_logo"> Mangas</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Manga</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Ver Carrinho
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Manga</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Os melhores preços de <span>mangas</span> estão aqui
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero officia odio sed!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Ver Mangas</a>
+                    <a href="tel:+11958947795" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11)958947795
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/gojo-toji-1-removebg.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Mangas</h2>
+            <h3 class="section-subtitle">Os mais vendidos</h3>
+
+            <div id="mangas">
+                <div class="manga">
+                    <div class="manga-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/manga.png" class="manga-image" alt="" width="190px">
+
+                    <h3 class="manga-title">
+                        Jujutsu Kaisen vol. 01
+                    </h3>
+                    <span class="manga-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    
+                    <div class="manga-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="manga-price">
+                        <h4>R$29,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="manga">
+                    <div class="manga-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/manga2.png" class="manga-image" alt="" width="190px">
+
+                    <h3 class="manga-title">
+                        Eden's Zero vol. 01
+                    </h3>
+                    <span class="manga-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    
+                    <div class="manga-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="manga-price">
+                        <h4>R$29,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="manga">
+                    <div class="manga-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/manga3.png" class="manga-image" alt="" width="190px">
+
+                    <h3 class="manga-title">
+                        Shaman King vol. 01
+                    </h3>
+                    <span class="manga-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    
+                    <div class="manga-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="manga-price">
+                        <h4>R$29,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="manga">
+                    <div class="manga-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/manga4.png" class="manga-image" alt="" width="190px">
+
+                    <h3 class="manga-title">
+                        Bakuman vol. 01
+                    </h3>
+                    <span class="manga-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+                    
+                    <div class="manga-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="manga-price">
+                        <h4>R$29,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/gojo.png" id="testimonials_chef" alt="" >
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    Alguns de nossos feedbacks
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar1.png" class="feedback-avatar" alt="" width="70px">
+
+                        <div class="feedback-content">
+                            <p>
+                                Juliana Tangerino
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam incidunt magni odio provident sunt laborum."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="src/images/avatar2.png" class="feedback-avatar" alt="" width="70px">
+
+                        <div class="feedback-content">
+                            <p>
+                                Nicolas Radiante
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam incidunt magni odio provident sunt laborum."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="coopyright">
+                &copy 2024 Gabriel Sanches
+            </span>
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gabrielsanchess/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
